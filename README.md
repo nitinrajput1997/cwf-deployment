@@ -59,3 +59,12 @@ CERTS_VOLUME=/var/opt/magma/certs
 CONFIGS_OVERRIDE_VOLUME=/var/opt/magma/configs
 CONFIGS_DEFAULT_VOLUME=/etc/magma
 ```
+
+
+### Installation
+The installation is done using the install_gateway.sh script located at magma/orc8r/tools/docker. To install, copy that file and the three files described above into a directory on the install host. Then
+
+```bash
+$ sudo ./install_gateway.sh cwag
+```
+After this completes, you should see: Installed successfully!!
